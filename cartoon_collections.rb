@@ -3,8 +3,9 @@ def greet_characters(array)
 end
 
 def list_dwarves(array)
+  dwarf_list = " "
   array.each_with_index do |dwarf, i|
-    dwarf_list = << "#{i += 1}. #{dwarf}"
+    dwarf_list << "#{i += 1}. #{dwarf}"
   end
   dwarf_list
 end
